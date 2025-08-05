@@ -63,6 +63,18 @@ to see documentation: http://127.0.0.1:8000/docs
 
 You can test these endpoints by sending GET requests to them.
 
+### 6. Test endpoints in Postman
+
+You can import the Postman collection for testing the FastAPI throttling middleware using the following link:
+
+[Download Postman Collection](https://github.com/Etriii/fastapi-throttling-middleware/blob/main/collection_postman.json)
+
+### How to Import
+
+1. Download the `.json` file from the link above.
+2. Open Postman and click **Import** in the top-left corner.
+3. Select the downloaded `.json` file to import the collection.
+
 ###
 NOTE that:
 

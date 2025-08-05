@@ -1,0 +1,136 @@
+{
+  "collection": {
+    "info": {
+      "_postman_id": "16fa8501-f1b7-41cb-8a6c-accaf602d50b",
+      "name": "Fastapi throttling middleware",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+      "updatedAt": "2025-08-05T21:05:44.000Z",
+      "createdAt": "2025-08-05T20:08:19.000Z",
+      "lastUpdatedBy": "45711260",
+      "uid": "45711260-16fa8501-f1b7-41cb-8a6c-accaf602d50b"
+    },
+    "item": [
+      {
+        "name": "send-otp",
+        "id": "c40963f8-03e1-4851-8e1d-cc24f574e5e8",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "X-User-ID",
+              "value": "2",
+              "description": "You can change the value of this to have another request limit. If not provided the api will use your api as default.",
+              "type": "text"
+            }
+          ],
+          "url": {
+            "raw": "http://127.0.0.1:8000/send-otp",
+            "protocol": "http",
+            "host": [
+              "127",
+              "0",
+              "0",
+              "1"
+            ],
+            "port": "8000",
+            "path": [
+              "send-otp"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "45711260-c40963f8-03e1-4851-8e1d-cc24f574e5e8"
+      },
+      {
+        "name": "search",
+        "id": "598d6200-acca-481e-88dd-5b3e959d7023",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://127.0.0.1:8000/search",
+            "protocol": "http",
+            "host": [
+              "127",
+              "0",
+              "0",
+              "1"
+            ],
+            "port": "8000",
+            "path": [
+              "search"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "45711260-598d6200-acca-481e-88dd-5b3e959d7023"
+      },
+      {
+        "name": "search2",
+        "id": "6a397900-e5e1-4aea-9741-934aa8d41481",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "X-User-ID",
+              "value": "1",
+              "type": "text"
+            }
+          ],
+          "url": {
+            "raw": "http://127.0.0.1:8000/search2",
+            "protocol": "http",
+            "host": [
+              "127",
+              "0",
+              "0",
+              "1"
+            ],
+            "port": "8000",
+            "path": [
+              "search2"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "45711260-6a397900-e5e1-4aea-9741-934aa8d41481"
+      },
+      {
+        "name": "any-endpoint",
+        "id": "40d45b37-f9d4-48c5-9aa2-d3edcde31d36",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://127.0.0.1:8000/any-endpoint",
+            "protocol": "http",
+            "host": [
+              "127",
+              "0",
+              "0",
+              "1"
+            ],
+            "port": "8000",
+            "path": [
+              "any-endpoint"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "45711260-40d45b37-f9d4-48c5-9aa2-d3edcde31d36"
+      }
+    ]
+  }
+}
